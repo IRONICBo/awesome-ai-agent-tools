@@ -3,12 +3,16 @@
   "version": "2026.08",
   "description": "Plugins, extensions, and rules for AI coding agents (Claude Code, OpenCode, Cursor, Copilot, Windsurf, Aider, JetBrains)",
   "license": "MIT",
-  "lastUpdated": "2026-10-11",
-  "totalPlugins": 53,
+  "lastUpdated": "2026-10-12",
+  "totalPlugins": 54,
   "categories": [
     {
       "name": "Claude Code",
       "count": 12
+    },
+    {
+      "name": "Codex",
+      "count": 1
     },
     {
       "name": "OpenCode",
@@ -697,6 +701,19 @@
       "description": "Claude Code plugin that runs GitHub Issues as the work pipeline, with worker and verifier subagents and hooks that block commits until the full test suite passes.",
       "installCommand": "claude plugin marketplace add ITW-Creative-Works/workkit && claude plugin install workkit@workkit",
       "github": "https://github.com/ITW-Creative-Works/workkit"
+    },
+    {
+      "id": "masaka-for-codex",
+      "name": "Masaka for Codex",
+      "category": "Codex",
+      "platform": "Codex",
+      "stars": 1,
+      "installs": null,
+      "description": "Manages isolated Codex account and ChatGPT workspace profiles with usage visibility.",
+      "websiteUrl": "https://github.com/masakaai/codex-multiple-env",
+      "installCommand": "npm install -g @masakaai/codex-multiple-env",
+      "license": "Apache-2.0",
+      "github": "https://github.com/masakaai/codex-multiple-env"
     }
   ]
 }
