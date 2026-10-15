@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-15",
-  "totalServers": 154,
+  "totalServers": 155,
   "categories": [
     {
       "name": "Official Reference",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Browser Automation",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Databases",
@@ -131,6 +131,22 @@
     }
   ],
   "servers": [
+    {
+      "id": "rea-captcha",
+      "name": "rea-captcha",
+      "category": "Browser Automation",
+      "github": "https://github.com/masakaai/rea-captcha",
+      "stars": 1,
+      "description": "Local verification evidence and same-session resume for provider-test and owned browser flows",
+      "install": "npx -y rea-captcha mcp --stateless",
+      "license": "MIT",
+      "verified": false,
+      "source": "github",
+      "sourceType": "community",
+      "lastUpdated": "2026-10-15",
+      "tags": ["browser", "verification", "playwright", "testing"],
+      "notes": "Stateless launch supports evidence analysis and tool discovery. Browser actions require configuration with a caller-owned Playwright/CDP session and official provider test keys or an owned flow; no production CAPTCHA bypass. Configuration: https://github.com/masakaai/rea-captcha/blob/main/docs/mcp-tools.md"
+    },
     {
       "id": "filesystem",
       "name": "Filesystem MCP",
